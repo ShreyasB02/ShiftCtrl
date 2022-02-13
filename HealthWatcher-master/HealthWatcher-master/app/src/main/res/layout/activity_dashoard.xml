@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="359dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="53dp"
+        android:text="DASHBOARD"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="288dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="188dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bmi"
+        android:layout_width="127dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="BMI"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/measure"
+        android:layout_width="127dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="296dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Measure"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ex"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Exercise"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

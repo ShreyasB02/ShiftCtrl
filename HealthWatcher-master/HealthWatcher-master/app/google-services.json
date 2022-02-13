@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "974414787359",
+    "project_id": "hash-47581",
+    "storage_bucket": "hash-47581.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974414787359:android:51f5a299fb7e177a9a762a",
+        "android_client_info": {
+          "package_name": "com.example.yo7a.healthwatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974414787359-c8btj3tp06u6j35rfcjbmqgmnmcipaig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC92UoPTDnFaAyF5QNOgfJJ5wIeFImi6dY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974414787359-c8btj3tp06u6j35rfcjbmqgmnmcipaig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
