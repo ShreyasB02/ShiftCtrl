@@ -1,0 +1,261 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.yo7a.healthwatcher"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:7:22-62
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:9:5-60
+15-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:9:19-57
+16    <uses-feature android:name="android.hardware.camera.flash" />
+16-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:10:5-66
+16-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:10:19-63
+17
+18    <uses-permission android:name="android.permission.FLASHLIGHT" />
+18-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:12:5-69
+18-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:12:22-66
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:13:5-68
+19-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:13:22-65
+20
+21    <application
+21-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:15:5-102:19
+22        android:name="androidx.multidex.MultiDexApplication"
+23        android:allowBackup="true"
+23-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:16:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\80cdba9f194c4773d22b84a7f0c0c740\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/logo"
+26-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:17:9-36
+27        android:label="@string/app_name"
+27-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:18:9-41
+28        android:roundIcon="@mipmap/logo"
+28-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:19:9-41
+29        android:supportsRtl="true"
+29-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:20:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.AppCompat.NoActionBar" >
+31-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:21:9-59
+32        <activity
+32-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:22:9-24:40
+33            android:name="com.example.yo7a.healthwatcher.exercise"
+33-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:23:13-37
+34            android:exported="false" />
+34-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:24:13-37
+35        <activity
+35-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:25:9-28:55
+36            android:name="com.example.yo7a.healthwatcher.BMI"
+36-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:26:13-32
+37            android:exported="false"
+37-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:27:13-37
+38            android:parentActivityName="com.example.yo7a.healthwatcher.Dashboard" />
+38-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:28:13-52
+39        <activity
+39-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:29:9-31:40
+40            android:name="com.example.yo7a.healthwatcher.Dashboard"
+40-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:30:13-38
+41            android:exported="false" />
+41-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:31:13-37
+42        <activity
+42-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:32:9-41:20
+43            android:name="com.example.yo7a.healthwatcher.First"
+43-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:33:13-34
+44            android:configChanges="orientation"
+44-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:34:13-48
+45            android:screenOrientation="portrait" >
+45-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:35:13-49
+46            <intent-filter>
+46-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:36:13-40:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:37:17-69
+47-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:37:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:39:17-77
+49-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:39:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:42:9-45:52
+53            android:name="com.example.yo7a.healthwatcher.Primary"
+53-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:43:13-36
+54            android:configChanges="orientation"
+54-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:44:13-48
+55            android:screenOrientation="portrait" />
+55-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:45:13-49
+56        <activity
+56-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:46:9-49:52
+57            android:name="com.example.yo7a.healthwatcher.AboutApp"
+57-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:47:13-37
+58            android:configChanges="orientation"
+58-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:48:13-48
+59            android:screenOrientation="portrait" />
+59-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:49:13-49
+60        <activity
+60-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:50:9-53:52
+61            android:name="com.example.yo7a.healthwatcher.O2Result"
+61-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:51:13-37
+62            android:configChanges="orientation"
+62-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:52:13-48
+63            android:screenOrientation="portrait" />
+63-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:53:13-49
+64        <activity
+64-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:54:9-57:52
+65            android:name="com.example.yo7a.healthwatcher.BloodPressureResult"
+65-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:55:13-48
+66            android:configChanges="orientation"
+66-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:56:13-48
+67            android:screenOrientation="portrait" />
+67-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:57:13-49
+68        <activity
+68-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:58:9-61:52
+69            android:name="com.example.yo7a.healthwatcher.HeartRateResult"
+69-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:59:13-44
+70            android:configChanges="orientation"
+70-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:60:13-48
+71            android:screenOrientation="portrait" />
+71-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:61:13-49
+72        <activity
+72-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:62:9-65:52
+73            android:name="com.example.yo7a.healthwatcher.RespirationResult"
+73-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:63:13-46
+74            android:configChanges="orientation"
+74-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:64:13-48
+75            android:screenOrientation="portrait" />
+75-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:65:13-49
+76        <activity
+76-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:66:9-69:52
+77            android:name="com.example.yo7a.healthwatcher.HeartRateProcess"
+77-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:67:13-45
+78            android:configChanges="orientation"
+78-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:68:13-48
+79            android:screenOrientation="portrait" />
+79-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:69:13-49
+80        <activity
+80-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:70:9-73:52
+81            android:name="com.example.yo7a.healthwatcher.BloodPressureProcess"
+81-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:71:13-49
+82            android:configChanges="orientation"
+82-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:72:13-48
+83            android:screenOrientation="portrait" />
+83-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:73:13-49
+84        <activity
+84-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:74:9-77:52
+85            android:name="com.example.yo7a.healthwatcher.O2Process"
+85-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:75:13-38
+86            android:configChanges="orientation"
+86-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:76:13-48
+87            android:screenOrientation="portrait" />
+87-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:77:13-49
+88        <activity
+88-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:78:9-81:52
+89            android:name="com.example.yo7a.healthwatcher.Login"
+89-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:79:13-34
+90            android:configChanges="orientation"
+90-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:80:13-48
+91            android:screenOrientation="portrait" />
+91-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:81:13-49
+92        <activity
+92-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:82:9-85:52
+93            android:name="com.example.yo7a.healthwatcher.RespirationProcess"
+93-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:83:13-47
+94            android:configChanges="orientation"
+94-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:84:13-48
+95            android:screenOrientation="portrait" />
+95-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:85:13-49
+96        <activity
+96-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:86:9-89:52
+97            android:name="com.example.yo7a.healthwatcher.StartVitalSigns"
+97-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:87:13-44
+98            android:configChanges="orientation"
+98-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:88:13-48
+99            android:screenOrientation="portrait" />
+99-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:89:13-49
+100        <activity
+100-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:90:9-93:52
+101            android:name="com.example.yo7a.healthwatcher.VitalSignsProcess"
+101-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:91:13-46
+102            android:configChanges="orientation"
+102-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:92:13-48
+103            android:screenOrientation="portrait" />
+103-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:93:13-49
+104        <activity
+104-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:94:9-97:52
+105            android:name="com.example.yo7a.healthwatcher.VitalSignsResults"
+105-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:95:13-46
+106            android:configChanges="orientation"
+106-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:96:13-48
+107            android:screenOrientation="portrait" />
+107-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:97:13-49
+108
+109        <meta-data
+109-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:99:9-101:57
+110            android:name="preloaded_fonts"
+110-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:100:13-43
+111            android:resource="@array/preloaded_fonts" />
+111-->C:\Users\Siddharth Kumar\Desktop\HealthWatcher-master\HealthWatcher-master\app\src\main\AndroidManifest.xml:101:13-54
+112
+113        <service
+113-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\1f2031abc94555b0a24617c7bbd91687\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:17:9-23:19
+114            android:name="com.google.firebase.components.ComponentDiscoveryService"
+114-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\1f2031abc94555b0a24617c7bbd91687\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:18:13-84
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\0011b18348df97170382f1eefd94678a\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+116            android:exported="false" >
+116-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\1f2031abc94555b0a24617c7bbd91687\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:19:13-37
+117            <meta-data
+117-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\1f2031abc94555b0a24617c7bbd91687\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:20:13-22:85
+118                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+118-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\1f2031abc94555b0a24617c7bbd91687\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\1f2031abc94555b0a24617c7bbd91687\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
+120        </service>
+121
+122        <provider
+122-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\0011b18348df97170382f1eefd94678a\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+123            android:name="com.google.firebase.provider.FirebaseInitProvider"
+123-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\0011b18348df97170382f1eefd94678a\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+124            android:authorities="com.example.yo7a.healthwatcher.firebaseinitprovider"
+124-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\0011b18348df97170382f1eefd94678a\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+125            android:directBootAware="true"
+125-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\0011b18348df97170382f1eefd94678a\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+126            android:exported="false"
+126-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\0011b18348df97170382f1eefd94678a\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+127            android:initOrder="100" />
+127-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\0011b18348df97170382f1eefd94678a\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+128
+129        <activity
+129-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\75425eaa4168bbfa6d24d1da303b011d\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+130            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+130-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\75425eaa4168bbfa6d24d1da303b011d\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+131            android:exported="false"
+131-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\75425eaa4168bbfa6d24d1da303b011d\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+132-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\75425eaa4168bbfa6d24d1da303b011d\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+133
+134        <meta-data
+134-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\2689dd37de1cff5ca5cc7680e2b98375\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+135            android:name="com.google.android.gms.version"
+135-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\2689dd37de1cff5ca5cc7680e2b98375\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+136            android:value="@integer/google_play_services_version" />
+136-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Siddharth Kumar\.gradle\caches\transforms-2\files-2.1\2689dd37de1cff5ca5cc7680e2b98375\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+137    </application>
+138
+139</manifest>
